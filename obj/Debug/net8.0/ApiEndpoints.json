@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "BugTrackingSystem.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/all-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BugTrackingSystem.Controllers.AuthController",
     "Method": "IsLoggedIn",
     "RelativePath": "api/auth/isLoggedIn",
@@ -62,6 +72,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BugTrackingSystem.Controllers.InvitationController",
+    "Method": "GetPendingInvitations",
+    "RelativePath": "api/invitations/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackingSystem.Controllers.InvitationController",
+    "Method": "RespondInvitation",
+    "RelativePath": "api/invitations/respond",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BugTrackingSystem.Dto.RespondInvitationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackingSystem.Controllers.InvitationController",
+    "Method": "SendInvitation",
+    "RelativePath": "api/invitations/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BugTrackingSystem.Dto.InvitationsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BugTrackingSystem.Controllers.ProjectController",
     "Method": "GetProjectById",
     "RelativePath": "api/project/{id}",
@@ -110,6 +162,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BugTrackingSystem.Controllers.UserController",
+    "Method": "SearchUsers",
+    "RelativePath": "api/search-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BugTrackingSystem.Controllers.SprintController",
     "Method": "DeleteSprint",
     "RelativePath": "api/sprint/{id}",
@@ -130,6 +198,38 @@
     "Method": "GetSprintById",
     "RelativePath": "api/sprint/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackingSystem.Controllers.SprintController",
+    "Method": "GetSprintDetails",
+    "RelativePath": "api/sprint/{id}/details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackingSystem.Controllers.SprintController",
+    "Method": "StartSprint",
+    "RelativePath": "api/sprint/{id}/start",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -215,6 +315,48 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackingSystem.Controllers.SprintController",
+    "Method": "UpdateStoryStatus",
+    "RelativePath": "api/story/{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "statusdto",
+        "Type": "BugTrackingSystem.Dto.UpdateStoryStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BugTrackingSystem.Controllers.StoryController",
+    "Method": "AddStoryToSprint",
+    "RelativePath": "api/Story/{storyId}/assignSprint/{sprintId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sprintId",
         "Type": "System.Int32",
         "IsRequired": true
       }

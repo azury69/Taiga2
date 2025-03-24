@@ -1,5 +1,6 @@
 ﻿using BugTrackingSystem.Data;
 using BugTrackingSystem.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,6 +8,8 @@ namespace BugTrackingSystem.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
+
     public class StoryController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -73,6 +76,21 @@ namespace BugTrackingSystem.Controllers
             _context.Stories.Remove(story);
             await _context.SaveChangesAsync();
             return NoContent();
+        }
+        [HttpPost("{storyId}/assignSprint/{sprintId}")]
+        public async Task<IActionResult> AddStoryToSprint(int storyId, int sprintId)
+        {
+            var story = await _context.Stories.FindAsync(storyId);
+            if (story == null)
+            {
+                return NotFound();
+            }
+
+            // Assign the story to the sprint
+            story.SprintId = sprintId;
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Story assigned to sprint." });
         }
     }
 }

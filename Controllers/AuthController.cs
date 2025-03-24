@@ -68,9 +68,11 @@ namespace BugTrackingSystem.Controllers
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
             var user = await _userManager.FindByEmailAsync(model.Email);
+
             if (user == null) return Unauthorized("Invalid credentials");
 
             var result = await _signInManager.PasswordSignInAsync(user, model.Password,false,false);
+
             if (!result.Succeeded) return Unauthorized("Invalid credentials");
 
             return Ok(new { message = "User logged in successfully" });

@@ -12,6 +12,8 @@ namespace BugTrackingSystem.Models
         public int ProjectId { get; set; }
         public string? AssignedToId { get; set; }    
         public int? SprintId { get; set; }
+        public StoryStatus Status { get; set; } = StoryStatus.ToDo; // NEW FIELD, default
+
 
     }
 }

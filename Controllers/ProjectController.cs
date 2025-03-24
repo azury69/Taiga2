@@ -1,6 +1,9 @@
-﻿using BugTrackingSystem.Data;
+﻿using System.Security.Claims;
+using BugTrackingSystem.Data;
 using BugTrackingSystem.Dto;
 using BugTrackingSystem.Models;
+using BugTrackingSystem.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -8,16 +11,19 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BugTrackingSystem.Controllers
 {
+    [Authorize]
     [ApiController]
     public class ProjectController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ProjectAccessService _projectAccessService;
 
-        public ProjectController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
+        public ProjectController(ApplicationDbContext context, UserManager<ApplicationUser> userManager, ProjectAccessService projectAccessService)
         {
             _context = context;
             _userManager = userManager;
+            _projectAccessService= projectAccessService;
         }
         [HttpPost("api/projects")]
         public async Task<IActionResult> CreateProject([FromBody] CreateProjectDto createProjectDto)
@@ -63,15 +69,23 @@ namespace BugTrackingSystem.Controllers
         [HttpGet("api/getallprojects")]
         public IActionResult GetAllProjects()
         {
-            var currentUser = _userManager.GetUserAsync(User).Result;  // Get the current user
+            var currentUser = _userManager.GetUserAsync(User).Result;
             if (currentUser == null)
             {
                 return Unauthorized("You must be logged in to view projects.");
             }
 
-            // Fetch projects based on the current user's involvement (e.g., working on or watching projects)
+            // Fetch projects where the user is either the creator or a member (working on)
             var projects = _context.Projects
-                .Where(p => p.ApplicationUserId == currentUser.Id)  // Filter by the current user's ID
+                .Where(p => p.ApplicationUserId == currentUser.Id || p.Members.Any(m => m.UserId == currentUser.Id))
+                .Select(p => new
+                {
+                    p.Id,
+                    p.Name,
+                    p.Description,
+                    p.ApplicationUserId,
+                    IsCreator = p.ApplicationUserId == currentUser.Id // Flag to identify if the current user created the project
+                })
                 .ToList();
 
             return Ok(projects);
@@ -95,14 +109,20 @@ namespace BugTrackingSystem.Controllers
         [HttpDelete("api/project/{id}")]
         public async Task<IActionResult> DeleteProject(int id)
         {
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null) return Unauthorized();
+
             var project = await _context.Projects.FindAsync(id);
-            if (project == null)
+            if (project == null) return NotFound();
+
+            var member = await _projectAccessService.GetUserProjectMember(currentUser.Id, id);
+            if (member == null || !_projectAccessService.CanManageProject(member.Role))
             {
-                return NotFound("Project not found.");
+                return Forbid("You don't have permission to delete this project.");
             }
+
             _context.Projects.Remove(project);
             await _context.SaveChangesAsync();
-
             return Ok(new { message = "Project deleted successfully." });
         }
 

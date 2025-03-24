@@ -1,5 +1,6 @@
 using BugTrackingSystem.Data;
 using BugTrackingSystem.Models;
+using BugTrackingSystem.Service;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -18,8 +19,11 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 // Configure cookie-based authentication
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.LoginPath = "/api/auth/login"; // Redirect to login route
-    options.Cookie.HttpOnly = true;
+    options.LoginPath = "/api/auth/login";
+    options.AccessDeniedPath = "";// Redirect to login route
+    options.Cookie.HttpOnly = true; 
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(5); // Set appropriate session timeout
+
     options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Ensure cookies are secure in production
     options.Cookie.SameSite = SameSiteMode.None;
 });
@@ -40,6 +44,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<ProjectAccessService>();
 
 var app = builder.Build();
 

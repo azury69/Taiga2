@@ -1,12 +1,14 @@
 ﻿using BugTrackingSystem.Data;
 using BugTrackingSystem.Dto;
 using BugTrackingSystem.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace BugTrackingSystem.Controllers
 {
+    [Authorize]
     [ApiController]
     public class SprintController : ControllerBase
     {
@@ -86,6 +88,48 @@ namespace BugTrackingSystem.Controllers
 
             return Ok(sprints);
         }
+        [HttpPost("api/sprint/{id}/start")]
+        public async Task<IActionResult> StartSprint(int id)
+        {
+            var sprint = await _context.Sprints.FindAsync(id);
+            if (sprint == null) return NotFound();
+
+            sprint.IsStarted = true;
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Sprint started." });
+        }
+        [HttpPatch("api/story/{id}/status")]
+        public async Task<IActionResult> UpdateStoryStatus(int id, [FromBody] UpdateStoryStatusDto statusdto)
+        {
+            var story = await _context.Stories.FindAsync(id);
+            if (story == null) return NotFound();
+
+            story.Status = statusdto.Status;
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Story status updated." });
+        }
+        [HttpGet("api/sprint/{id}/details")]
+        public async Task<IActionResult> GetSprintDetails(int id)
+        {
+            var sprint = await _context.Sprints
+                .Include(s => s.Stories)
+                .FirstOrDefaultAsync(s => s.Id == id);
+
+            if (sprint == null) return NotFound();
+
+            var grouped = sprint.Stories
+                .GroupBy(s => s.Status)
+                .ToDictionary(g => g.Key.ToString(), g => g.ToList());
+
+            return Ok(new
+            {
+                Sprint = sprint,
+                StoriesGroupedByStatus = grouped
+            });
+        }
+
     }
 }
 
