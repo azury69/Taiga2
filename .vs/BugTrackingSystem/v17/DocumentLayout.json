@@ -7,16 +7,40 @@
       "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\service\\jwthelperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:service\\jwthelperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\controllers\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:controllers\\invitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\service\\projectaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:service\\projectaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\controllers\\sprintcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +51,16 @@
       "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:controllers\\storycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\models\\story.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:models\\story.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\models\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:models\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\models\\sprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:models\\sprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\dto\\updatestorystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:dto\\updatestorystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\dto\\createsprintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:dto\\createstorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\models\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:models\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\models\\projectmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:models\\projectmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,20 +79,8 @@
       "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:models\\projectinvitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\service\\projectaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:service\\projectaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|P:\\Taiga2\\Migrations\\20250323051847_for-kanbanboard-storystatus-added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250323051847_for-kanbanboard-storystatus-added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|p:\\taiga2\\migrations\\20250323051847_for-kanbanboard-storystatus-added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECDBC48-C39C-49E4-A10A-1C46457D8CCC}|BugTrackingSystem.csproj|solutionrelative:migrations\\20250323051847_for-kanbanboard-storystatus-added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,28 +94,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Sprint.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Models\\Sprint.cs",
-              "RelativeDocumentMoniker": "Models\\Sprint.cs",
-              "ToolTip": "P:\\Taiga2\\Models\\Sprint.cs",
-              "RelativeToolTip": "Models\\Sprint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "P:\\Taiga2\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:14:16.275Z",
+              "WhenOpened": "2025-03-24T01:45:56.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SprintController.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Controllers\\SprintController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SprintController.cs",
-              "ToolTip": "P:\\Taiga2\\Controllers\\SprintController.cs",
-              "RelativeToolTip": "Controllers\\SprintController.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAcwGUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "P:\\Taiga2\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:15:43.4Z",
+              "WhenOpened": "2025-03-24T01:06:22.901Z",
               "EditorCaption": ""
             },
             {
@@ -118,118 +126,53 @@
               "RelativeDocumentMoniker": "Controllers\\ProjectController.cs",
               "ToolTip": "P:\\Taiga2\\Controllers\\ProjectController.cs",
               "RelativeToolTip": "Controllers\\ProjectController.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAQwIAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowFYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:50:01.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UpdateStoryStatusDto.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Dto\\UpdateStoryStatusDto.cs",
-              "RelativeDocumentMoniker": "Dto\\UpdateStoryStatusDto.cs",
-              "ToolTip": "P:\\Taiga2\\Dto\\UpdateStoryStatusDto.cs",
-              "RelativeToolTip": "Dto\\UpdateStoryStatusDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:22:53.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Story.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Models\\Story.cs",
-              "RelativeDocumentMoniker": "Models\\Story.cs",
-              "ToolTip": "P:\\Taiga2\\Models\\Story.cs",
-              "RelativeToolTip": "Models\\Story.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T13:36:28.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "P:\\Taiga2\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:30:59.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InvitationController.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Controllers\\InvitationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InvitationController.cs",
-              "ToolTip": "P:\\Taiga2\\Controllers\\InvitationController.cs",
-              "RelativeToolTip": "Controllers\\InvitationController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAkwEQAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:30:24.011Z",
+              "WhenOpened": "2025-03-24T00:55:30.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "JwtHelperService.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Service\\JwtHelperService.cs",
+              "RelativeDocumentMoniker": "Service\\JwtHelperService.cs",
+              "ToolTip": "P:\\Taiga2\\Service\\JwtHelperService.cs",
+              "RelativeToolTip": "Service\\JwtHelperService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T00:55:08.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "P:\\Taiga2\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "P:\\Taiga2\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAuwFsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:30:33.232Z",
+              "WhenOpened": "2025-03-24T00:25:46.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateSprintDto.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Dto\\CreateSprintDto.cs",
-              "RelativeDocumentMoniker": "Dto\\CreateSprintDto.cs",
-              "ToolTip": "P:\\Taiga2\\Dto\\CreateSprintDto.cs",
-              "RelativeToolTip": "Dto\\CreateSprintDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "P:\\Taiga2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:19:55.118Z",
+              "WhenOpened": "2025-03-23T05:49:22.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StoryController.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Controllers\\StoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StoryController.cs",
-              "ToolTip": "P:\\Taiga2\\Controllers\\StoryController.cs",
-              "RelativeToolTip": "Controllers\\StoryController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAA9wEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T06:21:19.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CreateStoryDto.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Dto\\CreateStoryDto.cs",
-              "RelativeDocumentMoniker": "Dto\\CreateStoryDto.cs",
-              "ToolTip": "P:\\Taiga2\\Dto\\CreateStoryDto.cs",
-              "RelativeToolTip": "Dto\\CreateStoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:19:58.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "Project.cs",
               "DocumentMoniker": "P:\\Taiga2\\Models\\Project.cs",
               "RelativeDocumentMoniker": "Models\\Project.cs",
@@ -242,7 +185,115 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InvitationController.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Controllers\\InvitationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvitationController.cs",
+              "ToolTip": "P:\\Taiga2\\Controllers\\InvitationController.cs",
+              "RelativeToolTip": "Controllers\\InvitationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T00:55:25.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectAccessService.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Service\\ProjectAccessService.cs",
+              "RelativeDocumentMoniker": "Service\\ProjectAccessService.cs",
+              "ToolTip": "P:\\Taiga2\\Service\\ProjectAccessService.cs",
+              "RelativeToolTip": "Service\\ProjectAccessService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T01:34:23.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "P:\\Taiga2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "P:\\Taiga2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-24T00:25:19.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SprintController.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Controllers\\SprintController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SprintController.cs",
+              "ToolTip": "P:\\Taiga2\\Controllers\\SprintController.cs",
+              "RelativeToolTip": "Controllers\\SprintController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:15:43.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StoryController.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Controllers\\StoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StoryController.cs",
+              "ToolTip": "P:\\Taiga2\\Controllers\\StoryController.cs",
+              "RelativeToolTip": "Controllers\\StoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T06:21:19.68Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "P:\\Taiga2\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T00:22:47.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Sprint.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Models\\Sprint.cs",
+              "RelativeDocumentMoniker": "Models\\Sprint.cs",
+              "ToolTip": "P:\\Taiga2\\Models\\Sprint.cs",
+              "RelativeToolTip": "Models\\Sprint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:14:16.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateSprintDto.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Dto\\CreateSprintDto.cs",
+              "RelativeDocumentMoniker": "Dto\\CreateSprintDto.cs",
+              "ToolTip": "P:\\Taiga2\\Dto\\CreateSprintDto.cs",
+              "RelativeToolTip": "Dto\\CreateSprintDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:19:55.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateStoryDto.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Dto\\CreateStoryDto.cs",
+              "RelativeDocumentMoniker": "Dto\\CreateStoryDto.cs",
+              "ToolTip": "P:\\Taiga2\\Dto\\CreateStoryDto.cs",
+              "RelativeToolTip": "Dto\\CreateStoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:19:58.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ProjectInvitation.cs",
               "DocumentMoniker": "P:\\Taiga2\\Models\\ProjectInvitation.cs",
               "RelativeDocumentMoniker": "Models\\ProjectInvitation.cs",
@@ -250,25 +301,11 @@
               "RelativeToolTip": "Models\\ProjectInvitation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:14:01.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T05:14:01.565Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ProjectMember.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Models\\ProjectMember.cs",
-              "RelativeDocumentMoniker": "Models\\ProjectMember.cs",
-              "ToolTip": "P:\\Taiga2\\Models\\ProjectMember.cs",
-              "RelativeToolTip": "Models\\ProjectMember.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:14:09.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "RoleType.cs",
               "DocumentMoniker": "P:\\Taiga2\\Models\\RoleType.cs",
               "RelativeDocumentMoniker": "Models\\RoleType.cs",
@@ -276,38 +313,23 @@
               "RelativeToolTip": "Models\\RoleType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:14:12.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "P:\\Taiga2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:49:22.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProjectAccessService.cs",
-              "DocumentMoniker": "P:\\Taiga2\\Service\\ProjectAccessService.cs",
-              "RelativeDocumentMoniker": "Service\\ProjectAccessService.cs",
-              "ToolTip": "P:\\Taiga2\\Service\\ProjectAccessService.cs",
-              "RelativeToolTip": "Service\\ProjectAccessService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:49:15.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T05:14:12.596Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "ProjectMember.cs",
+              "DocumentMoniker": "P:\\Taiga2\\Models\\ProjectMember.cs",
+              "RelativeDocumentMoniker": "Models\\ProjectMember.cs",
+              "ToolTip": "P:\\Taiga2\\Models\\ProjectMember.cs",
+              "RelativeToolTip": "Models\\ProjectMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:14:09.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "20250323051847_for-kanbanboard-storystatus-added.cs",
               "DocumentMoniker": "P:\\Taiga2\\Migrations\\20250323051847_for-kanbanboard-storystatus-added.cs",
               "RelativeDocumentMoniker": "Migrations\\20250323051847_for-kanbanboard-storystatus-added.cs",
@@ -315,8 +337,7 @@
               "RelativeToolTip": "Migrations\\20250323051847_for-kanbanboard-storystatus-added.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:18:47.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T05:18:47.888Z"
             }
           ]
         }

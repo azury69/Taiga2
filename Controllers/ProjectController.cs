@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BugTrackingSystem.Controllers
 {
-    [Authorize]
     [ApiController]
+    [Authorize]
     public class ProjectController : ControllerBase
     {
         private readonly ApplicationDbContext _context;

@@ -484,3 +484,4 @@ P:\Taiga2\obj\Debug\net8.0\refint\BugTrackingSystem.dll
 P:\Taiga2\obj\Debug\net8.0\BugTrackingSystem.pdb
 P:\Taiga2\obj\Debug\net8.0\BugTrackingSystem.genruntimeconfig.cache
 P:\Taiga2\obj\Debug\net8.0\ref\BugTrackingSystem.dll
+P:\Taiga2\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

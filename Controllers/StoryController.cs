@@ -9,7 +9,6 @@ namespace BugTrackingSystem.Controllers
     [ApiController]
     [Route("api/[controller]")]
     [Authorize]
-
     public class StoryController : ControllerBase
     {
         private readonly ApplicationDbContext _context;

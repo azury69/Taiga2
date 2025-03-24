@@ -1,10 +1,8 @@
-﻿using BugTrackingSystem.Models;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication;
-using System.Threading.Tasks;
+using BugTrackingSystem.Models;
 using BugTrackingSystem.Dto;
+using BugTrackingSystem.Services;
 
 namespace BugTrackingSystem.Controllers
 {
@@ -14,27 +12,23 @@ namespace BugTrackingSystem.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly JwtHelperService _jwtHelperService;
 
-        public AuthController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        public AuthController(UserManager<ApplicationUser> userManager,
+                              SignInManager<ApplicationUser> signInManager,
+                              JwtHelperService jwtHelperService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _jwtHelperService = jwtHelperService;
         }
 
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDto model)
         {
-            // Manually check if Password and ConfirmPassword match
             if (model.Password != model.ConfirmPassword)
             {
                 return BadRequest(new { message = "Passwords do not match" });
-            }
-
-            if (!ModelState.IsValid)
-            {
-                // Return detailed validation errors from ModelState
-                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
-                return BadRequest(new { errors });
             }
 
             var user = new ApplicationUser
@@ -44,24 +38,20 @@ namespace BugTrackingSystem.Controllers
                 FullName = model.FullName
             };
 
-            // Create the user using the _userManager service
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (!result.Succeeded)
             {
-                // Return errors if user creation failed
                 var errors = result.Errors.Select(e => e.Description);
                 return BadRequest(new { errors });
             }
 
-            // Optionally log the user in after registration
             await _signInManager.SignInAsync(user, isPersistent: false);
 
-            return Ok(new { message = "User registered and logged in successfully" });
+            return Ok(new { message = "User registered successfully" });
         }
 
-
-        // Login a user
+        // Login the user and generate JWT token
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto model)
         {
@@ -71,30 +61,26 @@ namespace BugTrackingSystem.Controllers
 
             if (user == null) return Unauthorized("Invalid credentials");
 
-            var result = await _signInManager.PasswordSignInAsync(user, model.Password,false,false);
+            var result = await _signInManager.PasswordSignInAsync(user, model.Password, false, false);
 
             if (!result.Succeeded) return Unauthorized("Invalid credentials");
 
-            return Ok(new { message = "User logged in successfully" });
+            var token = _jwtHelperService.GenerateJwtToken(user); // Generate JWT token
+
+            return Ok(new { token });
         }
 
-        // Logout a user
         [HttpPost("logout")]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return Ok(new { message  ="User logged out successfully" });
+            return Ok(new { message = "User logged out successfully" });
         }
 
         [HttpGet("isLoggedIn")]
         public IActionResult IsLoggedIn()
         {
-            if (!User.Identity.IsAuthenticated)
-            {
-                return Ok(false); 
-            }
-            return Ok(true);  
+            return Ok(User.Identity.IsAuthenticated);
         }
-
     }
 }

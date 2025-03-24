@@ -35,7 +35,7 @@ namespace BugTrackingSystem.Service
 
         public bool CanComment(RoleType role)
         {
-            return true; // Everyone including Viewer can comment
+            return true; 
         }
     }
 }
